@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="name_hint">Имя</string>
+    <string name="phoneNumber_hint">Номер телефона</string>
+    <string name="dateOfBirth_hint">Дата рождения</string>
+    <string name="btnInsert_title">Добавить данные</string>
+    <string name="btnUpdate_title">Изменить данные</string>
+    <string name="btnDelete_title">Удалить данные</string>
+    <string name="btnSelect_title">Просмотр всех данных</string>
+</resources>

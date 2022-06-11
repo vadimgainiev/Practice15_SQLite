@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/txtName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="@string/name_hint"
+       android:inputType="textPersonName"
+       android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:hint="@string/phoneNumber_hint"
+        android:inputType="number"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNumber"
+        android:hint="@string/dateOfBirth_hint"
+        android:inputType="number"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDate"
+        android:layout_marginTop="30sp"
+        android:text="@string/btnInsert_title"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInsert"
+        android:text="@string/btnUpdate_title"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUpdate"
+        android:text="@string/btnDelete_title"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDelete"
+        android:layout_marginTop="30sp"
+        android:text="@string/btnSelect_title"
+        android:textSize="24sp"/>
+</RelativeLayout>
